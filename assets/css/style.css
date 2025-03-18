@@ -428,8 +428,17 @@ a {
   background: #2e2100;
 }
 
-.feedback-item {
+.feedback-list {
   display: flex;
+  overflow: hidden;
+}
+
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+  /* transform: translateX(-100%); */
+  /* transition: all ease 0.5s; */
 }
 
 .feedback-item .avatar {
@@ -475,7 +484,7 @@ a {
 }
 
 .feedback-item .content {
-  width: 66%;
+  width: 740px;
   margin-left: auto;
 }
 
@@ -484,7 +493,7 @@ a {
   font-size: 26px;
   font-style: italic;
   line-height: 40px;
-
+  
 }
 
 
