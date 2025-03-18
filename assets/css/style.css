@@ -496,7 +496,7 @@ a {
   
 }
 
-/* ===================feature================= */
+/* ===================feature 1================= */
 
 .feature {
   margin-top: 135px;
@@ -545,3 +545,22 @@ a {
   height: 50px;
 }
 
+/* ===================feature 2================= */
+
+.feature-2nd {
+  margin-top: 70px;
+}
+
+.feature-2nd .body {
+  flex-direction: row-reverse;
+}
+
+.feature-2nd .images img {
+  width: 470px;
+  height: 440px;
+  object-fit: cover;
+}
+
+.feature-2nd .content {
+  width: 49%;
+}
